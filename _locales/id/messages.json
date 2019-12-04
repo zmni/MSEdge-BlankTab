@@ -1,0 +1,11 @@
+{
+    "extName": {
+        "message": "Tab Kosong (Mengikuti mode warna peramban atau sistem)"
+    },
+    "extDesc": {
+        "message": "Halaman tab kosong baru dengan warna latar belakang yang mengikuti mode warna peramban atau sistem."
+    },
+    "tabTitle": {
+        "message": "Tab Baru"
+    }
+}
