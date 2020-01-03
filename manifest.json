@@ -5,13 +5,53 @@
     "default_locale": "en",
     "version": "1.0.0",
     "icons": {
-        "128": "icons/blank-128.png",
-         "48": "icons/blank-48.png",
-         "32": "icons/blank-32.png",
-         "16": "icons/blank-16.png"
+        "16": "icons/tab-dark-16.png",
+        "32": "icons/tab-dark-32.png",
+        "48": "icons/tab-dark-48.png",
+        "128": "icons/tab-dark-128.png"
     },
     "chrome_url_overrides": {
         "newtab": "index.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "scripts": ["js/bg.js"],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/tab-dark-16.png",
+            "32": "icons/tab-dark-32.png",
+            "48": "icons/tab-dark-48.png",
+            "128": "icons/tab-dark-128.png"
+        },
+        "default_title": "__MSG_extName__",
+        "default_popup": "",
+        "theme_icons": [
+            {
+                "dark": "icons/tab-light-16.png",
+                "light": "icons/tab-dark-16.png",
+                "size": 16
+            },
+            {
+                "dark": "icons/tab-light-32.png",
+                "light": "icons/tab-dark-32.png",
+                "size": 32
+            },
+            {
+                "dark": "icons/tab-light-48.png",
+                "light": "icons/tab-dark-48.png",
+                "size": 48
+            },
+            {
+                "dark": "icons/tab-light-128.png",
+                "light": "icons/tab-dark-128.png",
+                "size": 128
+            }
+
+        ]
     },
     "homepage_url": "https://github.com/zmni/MSEdge-BlankTab"
 }
