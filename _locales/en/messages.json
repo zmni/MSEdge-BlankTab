@@ -1,11 +1,11 @@
 {
     "extName": {
-        "message": "Blank Tab (Follows browser or system color mode)",
+        "message": "Blank Tab",
         "description": "The title of the extension, displayed in the web store."
 
     },
     "extDesc": {
-        "message": "A blank new tab page with background color that follows the browser or system color mode.",
+        "message": "A blank new tab page with background color that follows the browser color theme.",
         "description":"The description of the extension, displayed in the web store."
     },
     "tabTitle": {

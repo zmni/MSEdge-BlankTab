@@ -1,9 +1,9 @@
 {
     "extName": {
-        "message": "Tab Kosong (Mengikuti mode warna peramban atau sistem)"
+        "message": "Tab Kosong"
     },
     "extDesc": {
-        "message": "Halaman tab kosong baru dengan warna latar belakang yang mengikuti mode warna peramban atau sistem."
+        "message": "Halaman tab baru kosong dengan warna latar belakang yang mengikuti tema warna peramban."
     },
     "tabTitle": {
         "message": "Tab Baru"
