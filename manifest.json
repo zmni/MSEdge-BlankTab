@@ -3,12 +3,11 @@
     "name": "__MSG_extName__",
     "description": "__MSG_extDesc__",
     "default_locale": "en",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "icons": {
         "16": "icons/tab-dark-16.png",
         "32": "icons/tab-dark-32.png",
         "48": "icons/tab-dark-48.png",
-        "64": "icons/tab-dark-64.png",
         "128": "icons/tab-dark-128.png"
     },
     "chrome_url_overrides": {
