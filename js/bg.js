@@ -1,12 +1,12 @@
 // Copied from https://github.com/einaregilsson/Redirector/blob/master/js/background.js
 
 function isDarkMode() {
-    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches;
 }
 
 function setIcon(image) {
     var data = {
-        path: {}
+        path: {},
     };
 
     for (let size of [16, 32, 48, 128]) {
@@ -19,9 +19,9 @@ function setIcon(image) {
 function updateIcon() {
     chrome.storage.local.get({ disabled: false }, function () {
         if (isDarkMode()) {
-            setIcon('tab-light');
+            setIcon("tab-light");
         } else {
-            setIcon('tab-dark');
+            setIcon("tab-dark");
         }
     });
 }
@@ -34,7 +34,7 @@ chrome.storage.onChanged.addListener(function (changes) {
 });
 
 chrome.runtime.onMessage.addListener(function (request) {
-    if (request.type == 'update-icon') {
+    if (request.message == "update-icon") {
         updateIcon();
     } else {
         return false;
@@ -51,6 +51,6 @@ chrome.runtime.onStartup.addListener(function () {
     updateIcon(); // Set dark/light icon...
 
     // This doesn't work yet in Chrome, but we'll put it here anyway, in case it starts working...
-    let darkModeMql = window.matchMedia('(prefers-color-scheme: dark)');
+    let darkModeMql = window.matchMedia("(prefers-color-scheme: dark)");
     darkModeMql.onchange = updateIcon;
 });
