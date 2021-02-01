@@ -5,8 +5,8 @@ Get it from here: https://microsoftedge.microsoft.com/addons/detail/ihknoknoahjh
 
 ## Screenshots
 
-### Dark
-![Screenshot Light](https://raw.githubusercontent.com/zmni/MSEdge-BlankTab/master/images/screenshot-dark.png)
-
 ### Light
-![Screenshot Light](https://raw.githubusercontent.com/zmni/MSEdge-BlankTab/master/images/screenshot-light.png)
+![Screenshot Light](https://raw.githubusercontent.com/zmni/MSEdge-BlankTab/master/images/screenshot-light-en.png)
+
+### Dark
+![Screenshot Light](https://raw.githubusercontent.com/zmni/MSEdge-BlankTab/master/images/screenshot-dark-en.png)
