@@ -1,14 +1,11 @@
 {
     "extName": {
-        "message": "Blank Tab",
-        "description": "Titolo dell'estensione mostrato nel web store."
+        "message": "Blank Tab"
     },
     "extDesc": {
-        "message": "Apre una nuova scheda vuota, il colore dello sfondo seguirà il tema del browser.",
-        "description":"Descrizione dell'estensione mostrata nel web store."
+        "message": "Apre una nuova scheda vuota, il colore dello sfondo seguirà il tema del browser."
     },
     "tabTitle": {
-        "message": "Nuova scheda",
-        "description":"Titolo nuova scheda."
+        "message": "Nuova scheda"
     }
 }

@@ -1,15 +1,11 @@
 {
     "extName": {
-        "message": "Blank Tab",
-        "description": "The title of the extension, displayed in the web store."
-
+        "message": "Blank Tab"
     },
     "extDesc": {
-        "message": "A blank new tab page with background color that follows the browser color theme.",
-        "description":"The description of the extension, displayed in the web store."
+        "message": "A blank new tab page with background color that follows the browser color theme."
     },
     "tabTitle": {
-        "message": "New Tab",
-        "description":"New tab page title."
+        "message": "New Tab"
     }
 }
