@@ -1,0 +1,11 @@
+{
+    "extName": {
+        "message": "空白标签页"
+    },
+    "extDesc": {
+        "message": "将新标签页设置为空白, 其背景颜色将遵循Edge浏览器的深/浅色设置."
+    },
+    "tabTitle": {
+        "message": "新建标签页"
+    }
+}
