@@ -3,11 +3,11 @@
     "name": "__MSG_extName__",
     "description": "__MSG_extDesc__",
     "default_locale": "en",
-    "version": "2.5.2",
+    "version": "2.5.3",
     "icons": {
-         "32": "icons/ext-32.png",
-         "48": "icons/ext-48.png",
-         "64": "icons/ext-64.png",
+        "32": "icons/ext-32.png",
+        "48": "icons/ext-48.png",
+        "64": "icons/ext-64.png",
         "128": "icons/ext-128.png"
     },
     "chrome_url_overrides": {
