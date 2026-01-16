@@ -3,7 +3,7 @@
     "name": "__MSG_extName__",
     "description": "__MSG_extDesc__",
     "default_locale": "en",
-    "version": "2.6.0",
+    "version": "2.6.1",
     "icons": {
         "32": "icons/ext-32.png",
         "48": "icons/ext-48.png",
@@ -11,7 +11,7 @@
         "128": "icons/ext-128.png"
     },
     "chrome_url_overrides": {
-        "newtab": "index.html"
+        "newtab": "newtab.html"
     },
     "homepage_url": "https://github.com/zmni/MSEdge-BlankTab"
 }
