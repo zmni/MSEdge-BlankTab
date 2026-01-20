@@ -1,0 +1,11 @@
+{
+    "extName": {
+        "message": "Onglet vide"
+    },
+    "extDesc": {
+        "message": "Un nouvel onglet vide avec la couleur de fond qui correspond à celle du thème du navigateur."
+    },
+    "tabTitle": {
+        "message": "Nouvel onglet"
+    }
+}
