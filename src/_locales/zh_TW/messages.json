@@ -1,0 +1,14 @@
+{
+    "extName": {
+        "message": "空白分頁"
+    },
+    "extDesc": {
+        "message": "空白分頁的背景顏色將依瀏覽器主題切換。"
+    },
+    "tabTitle": {
+        "message": "新增分頁"
+    },
+    "_comment": {
+        "message": "備忘錄：「索引標籤」為Edge用語；「分頁」為Chrome用語。"
+    }
+}
